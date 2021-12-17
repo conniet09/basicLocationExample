@@ -76,6 +76,22 @@ public class MainActivity extends AppCompatActivity {
         mLongitudeText = (TextView) findViewById((R.id.longitude_text));
 
         mFusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
+
+//        getLastLocation();
+//
+//        double lat = mLastLocation.getLatitude();
+//        String latString = new String(String.valueOf(lat));
+//
+//        double longit = mLastLocation.getLongitude();
+//        String longString = new String(String.valueOf(longit));
+//
+//        mLatitudeText.setText(latString);
+//        mLongitudeText.setText(longString);
+
+        mLatitudeText.setText("1234566.123");
+        mLongitudeText.setText("123123143.52");
+
+
     }
 
     @Override
